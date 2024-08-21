@@ -56,6 +56,7 @@ a {
 .text-web {
   font-size: 48px;
   font-weight: bold;
+  margin: 0 auto;
 }
 .button {
   align-self: flex-start;
@@ -75,4 +76,34 @@ a {
   align-items: center;
   padding: 0 20px;
   flex: 1;
+}
+main {
+  width: 1250px;
+  margin: 0 auto;
+  padding: 50px 100px;
+}
+.section-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-content: center; */
+  flex-wrap: wrap;
+  margin: 50px 0;
+  gap: 150px;
+}
+.cell {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.image {
+  border: 3px solid #3882f6;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
 }
