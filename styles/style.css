@@ -11,8 +11,9 @@ body {
 header {
   background-color: #1f2937;
   color: #fff;
-  width: 1250px;
+  /* width: 1250px; */
   margin: 0 auto;
+  padding: 0 250px;
 }
 .header-top {
   display: flex;
@@ -61,7 +62,7 @@ a {
 .button {
   align-self: flex-start;
   flex-basis: 30px;
-  min-width: 70px;
+  min-width: 100px;
   color: #fff;
   background-color: #3882f6;
   font-weight: bold;
@@ -78,19 +79,20 @@ a {
   flex: 1;
 }
 main {
-  width: 1250px;
+  /* width: 1250px; */
   margin: 0 auto;
+  /* padding: 0 250px; */
 }
 .section-1 {
   display: flex;
   flex-direction: column;
-  padding: 50px 100px;
+  padding: 50px 350px;
 }
 
 .flex-container {
   display: flex;
   justify-content: space-between;
-  /* align-content: center; */
+
   flex-wrap: wrap;
   margin: 50px 0;
   gap: 150px;
@@ -107,19 +109,61 @@ main {
   width: 150px;
   height: 150px;
 }
+
 .section-2 {
   background-color: #999;
+  margin: 0 auto;
+
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding: 100px;
+  padding: 100px 350px;
+  flex: 1;
 }
 .quote {
+  flex: 1;
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
 }
 .author-quote {
+  flex: 1;
   font-size: 18px;
+  font-weight: bold;
   align-self: flex-end;
+}
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blue-button {
+  background-color: #3882f6;
+
+  border-radius: 5px;
+  color: #fff;
+  display: flex;
+  gap: 100px;
+  padding: 50px 150px;
+  margin: 100px auto;
+}
+.button-2 {
+  min-width: 100px;
+  height: 30px;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #3882f6;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+footer {
+  /* width: 1250px; */
+  margin: 0 auto;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #fff;
+  padding: 20px 100px;
 }
